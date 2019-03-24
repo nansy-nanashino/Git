@@ -1,0 +1,33 @@
+//クローンを作る
+git clone <URL>
+//ブランチを作る
+git checkout -b <new branch>
+//ブランチを移動する
+git checkout <branch>
+//branchを確認する
+git branch
+// ファイル登録
+ git add <file>
+ git add .
+// ローカルリポジトリコミット
+ git commit -m " message "
+// リモート転送
+ git push origin develop
+(master branchにマージする)
+//masterと同期する（マスターにいる状態だと、リモートリポジトリと同期する。作ったブランチにいる状態だとローカルリポジトリのマスターブランチと同期する）
+ git pull origin master
+
+編集したものをコミットしないとブランチ移動ができない
+
+//ログを見る
+git log 
+//状態をみrる
+git status
+//差分
+git diff
+//過去のバージョン
+git reset --herd HEAD
+//gitに含めない設定
+gitignore
+//エイリアス
+git config --global alias<名前><動作>
