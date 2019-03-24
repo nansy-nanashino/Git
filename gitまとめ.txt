@@ -12,7 +12,7 @@ git branch
 // ローカルリポジトリコミット
  git commit -m " message "
 // リモート転送
- git push origin develop
+ git push origin <branch>
 (master branchにマージする)
 //masterと同期する（マスターにいる状態だと、リモートリポジトリと同期する。作ったブランチにいる状態だとローカルリポジトリのマスターブランチと同期する）
  git pull origin master
